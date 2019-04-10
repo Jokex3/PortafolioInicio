@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+
+typedef struct nodo{
+    int dato;
+    struct nodo *sgte;
+}*lista;
+
+lista iniciaLista(){
+    lista listaAux;
+    listaAux = NULL;
+    return listaAux;
+}
+
+void main(){
+    lista listaPrincipal;
+    listaPrincipal = iniciaLista();
+
+
+}
