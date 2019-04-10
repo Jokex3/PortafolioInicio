@@ -15,6 +15,9 @@ lista iniciaLista(){
 void main(){
     lista listaPrincipal;
     listaPrincipal = iniciaLista();
-
+    printf("\nIngrese un numero por favor\n");
+    int elemento;
+    scanf("%i",&elemento);
+    
 
 }
